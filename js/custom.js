@@ -1,7 +1,7 @@
 (function($){
 	$(document).ready(function(){
 	
-		$(".banner-image").backstretch('images/72Z_6430.jpg');
+		// $(".banner-image").backstretch('images/72Z_6430.jpg');
 		
 		// Fixed header dd
 		//-----------------------------------------------
