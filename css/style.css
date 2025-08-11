@@ -337,7 +337,7 @@ text-align:center;
 ---------------------------------- */
 .btn {
 	padding: 8px 15px;
-	font-size: 14px;
+	font-size: 24px;
 	line-height: 1.42857143;
 	min-width: 160px;
 	text-align: center;
@@ -356,7 +356,7 @@ text-align:center;
 }
 .btn-default:hover {
 	color: #ffffff;
-	background-color: #BB0A53;
+	background-color: #110776;
 	border: 0;
 }
 
