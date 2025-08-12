@@ -149,8 +149,9 @@ blockquote {
 
 .banner-image {
 	vertical-align: middle;
-	min-height: 100%;
-	width: 100%
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 
 .banner:after {
