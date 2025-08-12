@@ -17,8 +17,8 @@ html {
 body {
 	font-size: 15px;
 	line-height: 1.5;
-	color: #95a0b8;
-	background-color: #1c2435;
+	color: #f8f8f8;
+	background-color: #082656;
 	position: relative
 }
 
@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #b9c2d4
+	color: #f8f8f8
 }
 
 h1 {
@@ -65,19 +65,19 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-	color: #9de8f9
+	color: #f8f8f8
 }
 
 .colored {
-	color: #9de8f9
+	color: #f8f8f8
 }
 
 a {
-	color: #55acee
+	color: #38BAF3
 }
 
 a:hover {
-	color: #339beb
+	color: #38BAF3
 }
 
 a:active,
@@ -130,8 +130,8 @@ blockquote {
 }
 
 .header {
-	color: #1c2435;
-	background-color: #9de8f9;
+	color: #082656;
+	background-color: #ffffff;
 	padding: 10px 0;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
@@ -170,22 +170,22 @@ blockquote {
 }
 
 .section {
-	background-color: #1c2435;
+	background-color: #082656;
 	padding: 80px 0
 }
 
 .default-bg {
-	background-color: #222;
+	background-color: #082656;
 	color: #1c2435
 }
 
 .default-bg.blue {
-	background-color: #55acee
+	background-color: #082656
 }
 
 .btn-primary {
-	color: #1c2435;
-	background-color: #222;
+	color: #38BAF3;
+	background-color: #04438D;
 	border: 0
 }
 
@@ -195,13 +195,13 @@ blockquote {
 .btn-primary:focus,
 .btn-primary:hover,
 .open>.dropdown-toggle.btn-primary {
-	color: #1c2435;
-	background-color: #2fa1cd;
+	color: #082656;
+	background-color: #2876CD;
 	border: 0
 }
 
 .transprant-bg {
-	color: #1c2435
+	color: #082656
 }
 
 .default-bg h1,
@@ -216,17 +216,17 @@ blockquote {
 .transprant-bg h4,
 .transprant-bg h5,
 .transprant-bg h6 {
-	color: #1c2435
+	color: #082656
 }
 
 .default-bg blockquote footer,
 .transprant-bg blockquote footer {
-	color: #ccc
+	color: #f8f8f8
 }
 
 .default-bg a,
 .transprant-bg a {
-	color: #1c2435;
+	color: #082656;
 	text-decoration: underline
 }
 
@@ -321,7 +321,7 @@ button.cta-button {
 }
 
 button.cta-button:hover {
-	background: #1c2435;
+	background: #082656;
 	color: #000
 }
 
@@ -374,7 +374,7 @@ button.cta-button:hover {
 .banner-caption h4,
 .banner-caption h5,
 .banner-caption h6 {
-	color: #f8f9fb;
+	color: #f8f8f8;
 }
 
 .banner-caption h1 {
@@ -415,14 +415,14 @@ button.cta-button:hover {
 }
 
 .btn-default {
-	color: #1c2435;
-	background: #c9c8f1;
+	color: #082656;
+	background: #38BAF3;
 	border: 0
 }
 
 .btn-default:hover {
-	color: #1c2435;
-	background-color: #67719b;
+	color: #082656;
+	background-color: #2876CD;
 	border: 0
 }
 
@@ -455,8 +455,8 @@ button.cta-button:hover {
 	padding: 12px 35px 12px 15px;
 	display: inline-block;
 	width: 100%;
-	background-color: #1c2435;
-	color: #9de8f9;
+	background-color: #082656;
+	color: #38BAF3;
 	position: relative;
 	text-decoration: none
 }
@@ -484,8 +484,8 @@ button.cta-button:hover {
 
 .panel-heading a:hover {
 	text-decoration: none;
-	background-color: #1c2435;
-	color: #9de8f9
+	background-color: #082656;
+	color: #2876CD
 }
 
 .panel-title a i {
@@ -497,9 +497,9 @@ button.cta-button:hover {
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover,
 .nav-pills>li>a:hover {
-	background-color: #9de8f9;
-	border-color: #9de8f9;
-	color: #1c2435
+	background-color: #38BAF3;
+	border-color: #38BAF3;
+	color: #082656
 }
 
 .nav-pills>li>a {
@@ -542,17 +542,17 @@ textarea {
 }
 
 .modal-header {
-	background-color: #626262;
-	color: #1c2435
+	background-color: #38BAF3;
+	color: #082656
 }
 
 .modal-header h4 {
-	color: #1c2435
+	color: #082656
 }
 
 .modal-header .close {
 	font-weight: 300;
-	color: #1c2435;
+	color: #082656;
 	text-shadow: none;
 	filter: alpha(opacity=100);
 	opacity: 1
@@ -714,7 +714,7 @@ textarea {
 }
 
 .fixed-header-on .header {
-	background-color: #9de8f9;
+	background-color: #f8f8f8;
 	padding: 5px 0
 }
 
@@ -770,7 +770,7 @@ textarea {
 }
 
 .brand a {
-	color: #1c2435
+	color: #082656
 }
 
 .brand a:hover {
@@ -919,7 +919,7 @@ textarea {
 	bottom: -1px;
 	left: 0;
 	right: -1px;
-	background-color: rgba(219, 10, 97, .78);
+	background-color: rgba(10, 83, 219, 0.78);
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;
