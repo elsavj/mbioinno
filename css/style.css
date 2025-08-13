@@ -11,7 +11,8 @@ body {
 
 body,
 html {
-	height: 100%
+	height: 100%;
+	/* width: -webkit-fill-available; */
 }
 
 body {
@@ -32,8 +33,8 @@ h6 {
 }
 
 h1 {
-	font-size: 38px;
-	font-weight: 700;
+	font-size: 15px;
+	font-weight: 550;
 	margin-bottom: 20px
 }
 
@@ -379,7 +380,7 @@ button.cta-button:hover {
 }
 
 .banner-caption h1 {
-	font-size: 60px
+	font-size: 50px
 }
 
 .footer h1 {
@@ -402,7 +403,7 @@ button.cta-button:hover {
 
 .btn {
 	padding: 8px 15px;
-	font-size: 32px;
+	font-size: 24px;
 	line-height: 1.42857143;
 	min-width: 160px;
 	text-align: center;
@@ -975,3 +976,12 @@ textarea {
 #curriculum, #details, #applications{
 	background-color: #151a25;
 }
+
+.immersion{
+	font-size: 10px !important;
+}
+
+/* .banner-caption-small h1{
+	color: #f8f8f8;
+	font-size: 50px
+} */
