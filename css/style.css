@@ -976,6 +976,7 @@ textarea {
 
 #curriculum, #details, #fees, #webinars{
 	background-color: #151a25;
+	width: fit-content
 }
 
 .immersion{
