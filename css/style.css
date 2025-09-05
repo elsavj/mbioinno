@@ -629,6 +629,7 @@ textarea {
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
+	font-size: 13px;
 	display: none;
 	position: absolute;
 	background-color: #f9f9f9;
