@@ -186,9 +186,37 @@ blockquote {
 	background-color: #f8f8f8
 }
 
+.float-btn{
+	position:fixed;
+	bottom:40px;
+	right:5%; 
+	color: #efefef;
+	background-color: #60a0e9;
+	border: 0;
+	width:280px;
+	height: 70px;
+	font-size: 20px;
+	/* color:#FFF;
+	text-align:center;
+	box-shadow: 2px 3px #999; */
+	box-shadow: 2px 2px #545454;
+
+}
+
 .btn-primary {
 	color: #38BAF3;
 	background-color: #04438D;
+	border: 0
+}
+
+.float-btn.active,
+.float-btn.focus,
+.float-btn:active,
+.float-btn:focus,
+.float-btn:hover,
+.open>.dropdown-toggle.float-btn {
+	color: #f8f8f8;
+	background-color: #2876CD;
 	border: 0
 }
 
@@ -1035,10 +1063,7 @@ td {
 	padding: 5px;
 }
 
-/* .banner-caption-small h1{
-	color: #f8f8f8;
-	font-size: 50px
-} */
+
 
 #contact {
 	color: #f8f8f8;
