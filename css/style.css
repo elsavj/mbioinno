@@ -18,8 +18,8 @@ html {
 body {
 	font-size: 15px;
 	line-height: 1.5;
-	color: #f8f8f8;
-	background-color: #082656;
+	color: #141415;
+	background-color: #f8f8f8;
 	position: relative
 }
 
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #f8f8f8
+	color: #141415
 }
 
 h1 {
@@ -66,11 +66,11 @@ h1 span,
 h2 span,
 h3 span,
 h4 span {
-	color: #f8f8f8
+	color: #082656
 }
 
 .colored {
-	color: #f8f8f8
+	color: #141415
 }
 
 a {
@@ -132,7 +132,7 @@ blockquote {
 }
 
 .header {
-	color: #082656;
+	color: #f8f8f8;
 	background-color: #ffffff;
 	padding: 10px 0;
 	-webkit-transition: all .2s ease-in-out;
@@ -173,17 +173,17 @@ blockquote {
 }
 
 .section {
-	background-color: #082656;
+	background-color: #f8f8f8;
 	padding: 80px 0
 }
 
 .default-bg {
-	background-color: #082656;
+	background-color: #f8f8f8;
 	color: #1c2435
 }
 
 .default-bg.blue {
-	background-color: #082656
+	background-color: #f8f8f8
 }
 
 .btn-primary {
@@ -198,13 +198,13 @@ blockquote {
 .btn-primary:focus,
 .btn-primary:hover,
 .open>.dropdown-toggle.btn-primary {
-	color: #082656;
+	color: #f8f8f8;
 	background-color: #2876CD;
 	border: 0
 }
 
 .transprant-bg {
-	color: #082656
+	color: #f8f8f8
 }
 
 .default-bg h1,
@@ -219,7 +219,7 @@ blockquote {
 .transprant-bg h4,
 .transprant-bg h5,
 .transprant-bg h6 {
-	color: #082656
+	color: #f8f8f8
 }
 
 .default-bg blockquote footer,
@@ -229,7 +229,7 @@ blockquote {
 
 .default-bg a,
 .transprant-bg a {
-	color: #082656;
+	color: #f8f8f8;
 	text-decoration: underline
 }
 
@@ -324,7 +324,7 @@ button.cta-button {
 }
 
 button.cta-button:hover {
-	background: #082656;
+	background: #f8f8f8;
 	color: #000
 }
 
@@ -418,13 +418,13 @@ button.cta-button:hover {
 }
 
 .btn-default {
-	color: #082656;
+	color: #f8f8f8;
 	background: #38BAF3;
 	border: 0
 }
 
 .btn-default:hover {
-	color: #082656;
+	color: #f8f8f8;
 	background-color: #2876CD;
 	border: 0
 }
@@ -448,9 +448,9 @@ button.cta-button:hover {
 }
 
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
-	border: 1px solid #101521;
+	/* border: 1px solid #38BAF3; */
 	border-top: none;
-	background-color: #101521
+	/* background-color: #38BAF3 */
 }
 
 .panel-heading a {
@@ -458,10 +458,11 @@ button.cta-button:hover {
 	padding: 12px 35px 12px 15px;
 	display: inline-block;
 	width: 100%;
-	background-color: #082656;
+	background-color: #f8f8f8;
 	color: #38BAF3;
 	position: relative;
-	text-decoration: none
+	text-decoration: none;
+	border: 1px solid #cacaca
 }
 
 .panel-heading a.collapsed {
@@ -487,7 +488,7 @@ button.cta-button:hover {
 
 .panel-heading a:hover {
 	text-decoration: none;
-	background-color: #082656;
+	background-color: #f8f8f8;
 	color: #2876CD
 }
 
@@ -502,7 +503,7 @@ button.cta-button:hover {
 .nav-pills>li>a:hover {
 	background-color: #38BAF3;
 	border-color: #38BAF3;
-	color: #082656
+	color: #f8f8f8
 }
 
 .nav-pills>li>a {
@@ -546,16 +547,16 @@ textarea {
 
 .modal-header {
 	background-color: #38BAF3;
-	color: #082656
+	color: #f8f8f8
 }
 
 .modal-header h4 {
-	color: #082656
+	color: #f8f8f8
 }
 
 .modal-header .close {
 	font-weight: 300;
-	color: #082656;
+	color: #f8f8f8;
 	text-shadow: none;
 	filter: alpha(opacity=100);
 	opacity: 1
@@ -598,11 +599,44 @@ textarea {
 	font-weight: 700
 }
 
-.main-navigation .navbar-default .navbar-nav>li.active>a:hover,
-.main-navigation .navbar-default .navbar-nav>li>a:hover {
+.main-navigation .navbar-default .navbar-nav>li.active>a:hover {
 	color: #002c52;
 	font-weight: 700
 }
+
+.main-navigation .navbar-default .navbar-nav>li>a:hover {
+	background-color: #6799c5;
+	font-weight: 700
+}
+
+.main-navigation .navbar-default .navbar-nav>li:hover .dropdown-content {
+	display: block;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
 
 #quote-carousel {
 	padding: 0 10px 30px 10px;
@@ -773,7 +807,7 @@ textarea {
 }
 
 .brand a {
-	color: #082656
+	color: #f8f8f8
 }
 
 .brand a:hover {
@@ -974,16 +1008,16 @@ textarea {
 	justify-items: center
 }
 
-#curriculum, #details, #fees, #webinars{
+/* #curriculum, #details, #fees, #webinars{
 	background-color: #151a25;
 	width: fit-content
-}
+} */
 
-.immersion{
+.immersion {
 	font-size: 10px !important;
 }
 
-.profile-image{
+.profile-image {
 	width: 300px;
 	height: 300px;
 	border-radius: 20%;
@@ -992,13 +1026,20 @@ textarea {
 
 }
 
-table, th, td {
-  border-collapse: collapse;
-  border: 1px solid #949494;
-  padding: 5px;
+table,
+th,
+td {
+	border-collapse: collapse;
+	border: 1px solid #949494;
+	padding: 5px;
 }
 
 /* .banner-caption-small h1{
 	color: #f8f8f8;
 	font-size: 50px
 } */
+
+#contact {
+	color: #f8f8f8;
+	font-size: 30px;
+}
